@@ -19,7 +19,7 @@ function Stats() {
                     <h3 className='mt-4 fs-5'>Do better with money</h3>
                     <p>With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
-                <div className="col-6 p-5">
+                <div className="col-6 p-5 mb-5">
                     <img src="media/ecosystem.png" alt="ecosystem" style={{width:"100%"}} />
                     <div className='text-center'>
                         <a href="" className='mx-5' style={{textDecoration:"none"}}>Explore our Products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
