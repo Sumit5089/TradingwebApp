@@ -2,7 +2,7 @@ import React from 'react';
 
 function Awards() {
     return ( 
-        <h1>Awards</h1>
+        <h1>Awards <i class="fa fa-university" aria-hidden="true"></i></h1>
      );
 }
 
