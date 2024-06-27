@@ -1,0 +1,18 @@
+.nav-link{
+    margin-left: 40px;
+    color: #666 !important;
+}
+
+.nav-link:hover {
+    color: rgb(97, 192, 243) !important;
+}
+
+#footer-a a{
+    text-decoration: none;
+    color: #666; 
+    
+}
+
+#footer li{
+    list-style-type: none; 
+}
