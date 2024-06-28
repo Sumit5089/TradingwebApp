@@ -3,10 +3,10 @@ import React from "react";
 function Team() {
   return (
     <div className="container mt-5 p-5">
-      <h1 className="text-center mb-5"> People</h1>
+      <h1 className="text-center mb-5 fs-8"> People</h1>
       <div className="row">
-        <div className="col text-center">
-          <img src="media/nithin-kamath.jpg" alt="founderimg" style={{borderRadius:"50%", width:"50%"}} />
+        <div className="col five text-center">
+          <img src="media/nithin-kamath.jpg" alt="founderimg" style={{borderRadius:"50%", width:"40%"}} />
           <br />
           <h5>Nithin Kamath</h5>
           <p>Founder, CEO</p>
