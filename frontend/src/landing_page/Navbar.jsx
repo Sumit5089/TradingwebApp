@@ -8,7 +8,7 @@ function Navbar() {
       <div class="container p-2">
         <Link class="navbar-brand" to="/">
           <img
-            className="mx-5"
+            className="mx-4"
             src="media/logo.svg"
             style={{ width: "22%" }}
             alt="llogo img"
@@ -49,7 +49,7 @@ function Navbar() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link active" href="/support">
+                <Link class="nav-link active" to="/support">
                     Support
                 </Link>
               </li>
