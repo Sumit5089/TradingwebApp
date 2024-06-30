@@ -6,7 +6,7 @@ function Footer() {
       <div className="row">
         <div className="col">
           <img src="/media/logo.svg" alt="logo" style={{ width: "60%" }} />
-          <p className="mt-4">© 2010 - 2024, Zerodha Broking Ltd. All rights reserved.</p>
+          <p className="mt-4  text-muted" style={{fontSize:"14px"}}>© 2010 - 2024, Zerodha Broking Ltd. <br /> All rights reserved.</p>
         </div>
         <div className="col" id="footer-a">
           <p className="px-4">Company</p>
@@ -135,9 +135,9 @@ function Footer() {
         anyone to trade on behalf of others. If you find anyone claiming to be
         part of Zerodha and offering such services, please create a ticket here.
       </p>
-      <p>
-        NSE BSE MCX Terms & conditions Policies & procedures Privacy policy
-        Disclosure For investor's attention Investor charter
+      <p className="text-center" style={{fontSize:"13px"}}>
+        NSE &nbsp;&nbsp;BSE&nbsp;&nbsp; MCX&nbsp;&nbsp; Terms & conditions&nbsp;&nbsp; Policies & procedures&nbsp;&nbsp; Privacy policy&nbsp;&nbsp;
+        Disclosure&nbsp;&nbsp; For investor's attention&nbsp;&nbsp; Investor charter
       </p>
         </div>
     </div>
