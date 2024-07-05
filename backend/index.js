@@ -2,14 +2,30 @@
 require('dotenv').config();
 
 const express = require('express');
-const app = express();
-const mongoose = require('mongoose');
 
- const PORT = process.env.PORT || 3000;
+const mongoose = require('mongoose');
+const { PositionModel} = require('./models/PositionModel');
+const { HoldingModel} = require('./models/HoldingModel');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+
+ const PORT = process.env.PORT || 3002;
  const URL = process.env.MONGO_URL;
  
-app.get('/', (req, res) => {
-    res.send('Hello World');
+ const app = express();
+
+app.use(cors());
+app.use(bodyParser.json());
+
+
+app.get('/allHoldings', async (req, res) => {
+    let allHoldings = await HoldingModel.find({});
+    res.json(allHoldings);
+});
+
+app.get('/allPositions', async (req, res) => {
+    let allpositions = await PositionModel.find({});
+    res.json(allpositions);
 });
 
 app.listen(PORT, () => {
