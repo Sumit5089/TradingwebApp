@@ -15,7 +15,7 @@ function Team() {
           
             <p>Nithin bootstrapped and founded Zerodha in 2010 to overcome the
             hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.</p>
+            Zerodha has changed alot the landscape of the Indian broking industry.</p>
 
             <p>He is a member of the SEBI Secondary Market Advisory Committee (SMAC)
             and the Market Data Advisory Committee (MDAC).</p>
